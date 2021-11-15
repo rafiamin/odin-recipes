@@ -5,10 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <style>
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .container > img {
+            width: 100%;
+        }
+        .container > h1 {
+            text-align: center;
+            margin-top: 100px;
+            font-size: 35px;
+        }
+        .container a {
+            font-size: 18px;
+            line-height: 2;
+        }
+    </style>
 </head>
 <html>
 <body>
+    <section class="container">
     <h1>Odin Recipes</h1>
-    <a href="receipes/lasagna.html">Lasaga Recipe</a>
+    <img src="./images/hero-img.jpg" alt="">
+    <h3>Select from the following Recipes</h3>
+    <ul>
+        <li><a href="./recipes/lasagna.html" target="_blank">Lasaga Recipe</a></li>
+        <li><a href="./recipes/chicken-thighs.html" target="_blank">Honey-Garlic Slow Cooker Chicken Thighs</a></li>
+        <li><a href="./recipes/meatloaf.html" target="_blank">Easy Meatloaf</a></li>
+    </ul>
+    </section>
 </body>
 </html>
