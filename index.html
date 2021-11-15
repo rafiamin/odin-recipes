@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
     <style>
+        body {
+            background-color: rgba(0,0,0,0.2);
+        }
         .container {
             width: 600px;
             margin: 0 auto;
             background-color: white;
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            padding: 10px 0;
             
         }
         .container > img {
@@ -22,8 +26,15 @@
         }
         .container a {
             font-size: 18px;
-            line-height: 2;
+            padding: 0 5px;
         }
+        .container h3 {
+            text-align: center;
+        }
+        .container ul > li {
+            padding: 5px 0;
+        }
+
     </style>
 </head>
 <html>
@@ -31,7 +42,7 @@
     <section class="container">
     <h1>Odin Recipes</h1>
     <img src="./images/hero-img.jpg" alt="">
-    <h3>Select from the following Recipes</h3>
+    <h3>Select from the following Recipes:</h3>
     <ul>
         <li><a href="./recipes/lasagna.html" target="_blank">Lasaga Recipe</a></li>
         <li><a href="./recipes/chicken-thighs.html" target="_blank">Honey-Garlic Slow Cooker Chicken Thighs</a></li>
